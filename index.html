@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putri | Frontend Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <div class="bg-wrapper">
+        <div class="liquid-blob blob-1"></div>
+        <div class="liquid-blob blob-2"></div>
+        <div class="liquid-blob blob-3"></div>
+    </div>
+
+    <main>
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <div id="mobile-menu" class="mobile-menu-wrapper closed">
+                <div class="liquid-glass mobile-nav-panel">
+                    <span class="nav-section-title">Navigation</span>
+
+                    <!-- menu links -->
+                    <a href="#hero" class="nav-menu-item group">
+                        <div class="nav-menu-link-wrapper">
+                            <span class="nav-menu-number">01</span>
+                            <span class="nav-menu-text">Home</span>
+                        </div>
+                        <span class="nav-menu-arrow">→</span>
+                    </a>
+                    <a href="#about" class="nav-menu-item group">
+                        <div class="nav-menu-link-wrapper">
+                            <span class="nav-menu-number">02</span>
+                            <span class="nav-menu-text">About</span>
+                        </div>
+                        <span class="nav-menu-arrow">→</span>
+                    </a>
+                    <a href="#work" class="nav-menu-item group">
+                        <div class="nav-menu-link-wrapper">
+                            <span class="nav-menu-number">03</span>
+                            <span class="nav-menu-text">Projects</span>
+                        </div>
+                        <span class="nav-menu-arrow">→</span>
+                    </a>
+                    <a href="#connect" class="nav-menu-item group">
+                        <div class="nav-menu-link-wrapper">
+                            <span class="nav-menu-number">04</span>
+                            <span class="nav-menu-text">Contact</span>
+                        </div>
+                        <span class="nav-menu-arrow">→</span>
+                    </a>
+
+                    <!-- social links -->
+                    <div class="nav-connect-section">
+                        <span class="nav-connect-label">Connect : </span>
+                        <a href="#" class="nav-connect-link">Github</a>
+                        <a href="#" class="nav-connect-link">Linkedin</a>   
+                    </div>
+                </div>
+            </div>
+
+            <nav class="liquid-glass navbar-pill">
+                <div class="navbar-logo">Putri Lisnawati</div>
+
+                <button id="menu-btn" class="navbar-toggle">
+                    <div class="line-top"></div>
+                    <div class="line-middle"></div>
+                    <div class="line-bottom"></div>
+                </button>
+            </nav>
+            
+        </div>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content-wrapper">
+                    <div class="hero-badge">
+                        <span class="hero-badge-text">Availabel for Freelance</span>
+                    </div>
+
+                    <h1 class="hero-main-title">
+                        Hallo, i,m Putri <br>
+                        Your Frontend Developer
+                    </h1>
+                    <p class="hero-description-text">
+                        crafting hight-performance web experience with modern technologies <br>
+                        Spesialized in HTML, CSS and JAVASCRIPT.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#connect" class="hero-btn hero-btn-primary">Contact Me</a>               
+                        <a href="#work" class="hero-btn hero-btn-secondary">View my work</a>               
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section SESUAIKAN YA NANTI -->
+        <section id="about" class="about-section">
+            <div class="about-wrapper">
+                
+                <!-- Section Header -->
+        <div class="about-header">
+            <span class="about-label">About Me</span>
+            <h2 class="about-title">Crafting Digital Experiences</h2>
+        </div>
+
+
+        <!-- Main Content Grid -->
+        <div class="about-content-grid">
+
+
+          <!-- Left: Photo & Bio -->
+          <div class="about-profile-col">
+            <div class="about-photo-wrapper">
+              <img src="profile.jpeg" alt="Putri" class="about-photo" />
+              <div class="photo-overlay"></div>
+            </div>
+
+
+            <div class="about-bio">
+              <h3 class="bio-title">Hello, I'm Putri</h3>
+              <p class="bio-text">
+                A passionate frontend developer and backend developer based in Telukdragon.
+                I specialize in building responsive web applications and extracting insights from data.
+              </p>
+            </div>
+          </div>
+
+
+          <!-- Right: Skills Grid -->
+          <div class="about-skills-col">
+            <h3 class="skills-heading">Technical Skills</h3>
+
+
+            <div class="skills-grid">
+              <!-- Skill Card 1 -->
+              <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon"></i>
+                <h4 class="skill-title">HTML & Semantic Markup</h4>
+                <p class="skill-description">Building accessible and SEO-friendly web structures</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">Accessibility</span>
+                </div>
+              </div>
+
+
+              <!-- Skill Card 2 -->
+              <div class="skill-card">
+                <i class="fa-brands fa-css3-alt skill-icon"></i>
+                <h4 class="skill-title">CSS & Styling</h4>
+                <p class="skill-description">Modern CSS, Flexbox, Grid, Animations</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-tag">CSS3</span>
+                </div>
+              </div>
+
+
+              <!-- Skill Card 3 -->
+              <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon"></i>
+                <h4 class="skill-title">JavaScript</h4>
+                <p class="skill-description">Vanilla JS, DOM Manipulation, ES6+</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Interactive UI</span>
+                  <span class="skill-tag">Modern JS</span>
+                </div>
+              </div>
+
+
+              <!-- Skill Card 4 -->
+              <div class="skill-card">
+                <i class="fa-solid fa-mobile-screen-button skill-icon"></i>
+                <h4 class="skill-title">Responsive Design</h4>
+                <p class="skill-description">Mobile-first approach, cross-browser compatibility</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Mobile First</span>
+                  <span class="skill-tag">Cross-browser</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- Project Section -->
+<section id="work" class="projects-section">
+      <div class="projects-wrapper">
+
+
+        <!-- Section Header -->
+        <div class="projects-header">
+          <span class="projects-label">My Work</span>
+          <h2 class="projects-title">Featured Projects</h2>
+          <p class="projects-subtitle">A selection of recent web development projects</p>
+        </div>
+
+
+        <!-- Projects Grid -->
+        <div class="projects-container">
+
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image-container">
+              <img src="project1.png" alt="Sprite Website" class="project-image" />
+              <div class="project-overlay">
+                <a href="#" class="project-view-btn">View Project</a>
+              </div>
+            </div>
+
+
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+              </div>
+              <h3 class="project-name">Sprite — Hero Section</h3>
+              <p class="project-description">
+                Landing page with a split layout — copywriting on the left, floating Sprite bottle animation on the
+                right.
+              </p>
+            </div>
+          </article>
+
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image-container">
+              <img src="project2.png" alt="Bertoz Coffee" class="project-image" />
+              <div class="project-overlay">
+                <a href="#" class="project-view-btn">View Project</a>
+              </div>
+            </div>
+
+
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <h3 class="project-name">Bertoz Coffee — Cafe Website</h3>
+              <p class="project-description">
+                A clean and modern cafe website for Bertoz Coffee, built with a fully responsive layout across all
+                devices.
+              </p>
+            </div>
+          </article>
+
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image-container">
+              <img src="project3.png" alt="iStore Website" class="project-image" />
+              <div class="project-overlay">
+                <a href="#" class="project-view-btn">View Project</a>
+              </div>
+            </div>
+
+
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <h3 class="project-name">iStore — Apple Store Concept</h3>
+              <p class="project-description">
+                A dark, glassmorphism-styled Apple store concept featuring MacBook, iPhone, and Apple Watch product
+                showcases.
+              </p>
+            </div>
+          </article>
+
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+              
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="connect" class="footer-section">
+
+
+      <div class="footer-wrapper">
+
+
+        <!-- Footer Main Content -->
+        <div class="footer-main">
+          <div class="footer-cta">
+            <h2 class="footer-heading">Let's Work Together</h2>
+            <p class="footer-subheading">Have a project in mind? Let's create something amazing.</p>
+
+
+            <a href="mailto:putri.lisnawatii05@gmail.com" class="footer-email-link">
+              putri.lisnawatii05@gmail.com
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h3 class="footer-column-title">Connect</h3>
+              <a href="#" class="footer-link">GitHub</a>
+              <a href="#" class="footer-link">LinkedIn</a>
+              <a href="#" class="footer-link">Twitter</a>
+            </div>
+
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Navigate</h3>
+              <a href="#about" class="footer-link">About</a>
+              <a href="#work" class="footer-link">Projects</a>
+              <a href="#connect" class="footer-link">Contact</a>
+            </div>
+          </div>
+
+
+          <div class="footer-copyright">
+            <p>&copy; 2026 Putri. All rights reserved.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
